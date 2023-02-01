@@ -1,0 +1,12 @@
+
+
+/// các route của phần tác vụ xác thực người dùng
+        trang home : path : "/"
+        trang login : path : "/login" => trang login => sau khi đăng nhập quay lại trang chủ home
+        trang cập nhật mật khẩu : path "/update_password" => sau khi đăng nhập => hiển thị nút cập nhật mật khẩu => sau khi cập nhật thành công => quay lại trang Home
+        
+        trang quên mật khẩu : path "/forgot_password" => sau khi nhấn "SEND" hiển thị popup kiểm tra mail
+                                                      => nhấn vào link "Tiếp tục đăng nhập" =>quay lại trang đăng nhập => đăng nhập thành công => quay lại Home
+
+        trang register : path "/register" => trang register => sau khi nhấn đăng ký 
+                                          => hiển thị 2 form cập nhật tuyển dụng hoặc ứng viên => k có điều hướng => sau khi cập nhật quay lại trang Home 

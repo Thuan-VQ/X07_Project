@@ -1,0 +1,119 @@
+.container-upload-job {
+  padding-bottom: 90px;
+  margin-top: 80px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-upload-job{
+  height: fit-content;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding : 20px 20px;
+  margin-top: 100px;
+  width: 500px;
+}
+.header-single-form{
+  color: rgb(24,144,255);
+}
+.form-body-upload{
+
+}
+.ant-picker-range{
+  width: 100% !important;
+}
+.footer-form-upload{
+  display: flex;
+  justify-content: center;
+  gap: 20px;  
+  margin-top: 15px;
+}
+.btn-form-upload-job{
+  padding: 5px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-nxt-form{
+  background-color: rgb(253,61,87);
+  color: white;
+}
+.btn-nxt-form:hover{
+  opacity: 0.8;
+}
+.container-confirm-upload{
+  margin-top: 15px;
+}
+.Confirm-btn{
+  color: var(--primary);
+  cursor: pointer;
+}
+.btn-form-upload-job:hover{
+  background-color: var(--primary);
+  color: white;
+}
+.btn-form-upload-job.disabled:hover{
+  cursor: not-allowed;
+  background-color: white;
+  opacity: 0.8;
+  color: black;
+}
+.upload-job.disabled-btn-upload{
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.header-form-upload {
+  text-align: center;
+  font-size: 25px;
+}
+.header-single-form{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image-data > img {
+  width: 200px;
+}
+.form-deadline {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.upload-job {
+  background-color: rgb(253,61,87);
+  color: white;
+  margin-top: 20px;
+  width: 100%;
+  padding: 5px 0;
+  font-size: 20px;
+}
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.output-label {
+  margin: 10px 0;
+  font-weight: bold;
+}
+.ck.ck-editor__editable_inline{
+  padding : 20px !important;
+}
+.output {
+  padding: 10px;
+  border-radius: 8px;
+  white-space: pre;
+  background-color: #ddd;
+}
+.description-upload{
+  border : 1px solid red;
+  padding-left: 50px;
+}
+.ck-editor{
+  height: 150px;
+}
+@media only screen and (max-width : 735px){
+  .form-container-upload{
+    width: 100%;
+  }
+}

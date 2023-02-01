@@ -1,0 +1,57 @@
+.contact-background {
+    border: none;
+    background-color: white;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+.contact-page{
+    background-color: rgb(241,245,249);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.container-contact-page{
+    width: 900px;
+    margin-top: 80px;
+    padding : 0 20px
+}
+
+.contact-card {
+    height: fit-content !important;
+    border : 1px solid #ccc;
+    border-radius: 7px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.row-item-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.contact-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E40AF;
+    letter-spacing: 0.16px
+}
+
+.contact-location{
+    width: 725px !important;
+    background-color: #FFF7ED;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+.col-item-headphone{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.wrap-icon-contact{
+    padding : 5px 8px;
+    border-radius: 50%;
+}
+.headPhone{
+    font-size: 20px !important;
+}

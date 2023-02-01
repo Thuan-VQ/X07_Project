@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-size: 16px;
+  font-family: var(--font-family, --font-roboto);
+}
+
+ol,
+ul {
+  padding-left: 0 ;
+  list-style: none;
+}
+:root {
+  --font-family: "Nunito Sans", sans-serif !important;
+  --font-roboto: "Nunito Sans", sans-serif;
+  --primary: #fd3d57;
+  --white-color: #ffff;
+  --blue-color: #0707f5;
+  --black-color: #000;
+  --border-color: #e9e4e4;
+}

@@ -1,0 +1,39 @@
+.update-info-user{
+    margin-top: 80px;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left: 1px solid #ccc;
+}
+
+.sidebar-update{
+    text-align: left;
+    max-width: 300px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    cursor: pointer;
+    border-left: 5px solid var(--blue-color);
+}
+.sidebar-update:hover{
+    background-color: rgba(0, 105, 219, 0.04);
+}
+.sidebar-update>h1{
+    margin: 0 !important;
+    font-weight: 600;
+}
+.sidebar-update>p{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.active{
+    background-color: rgba(0, 105, 219, 0.04);
+}
+.form-update{
+    width: 100%;
+}

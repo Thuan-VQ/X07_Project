@@ -1,0 +1,139 @@
+.button-submit{
+    background-color: rgb(253,61,87);
+    border: none;
+}
+.container-register{
+    position: relative;
+    height: 720px;
+}
+.circle-form{
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.08);
+    position: absolute;
+    top: -20vw;
+    right: -10vw;
+}
+.container-register-banner{
+    background-color: rgb(249,249,250);
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #0071FF, #0130CB);
+}
+.container-register-banner>h1{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 600;
+    width: 400px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.header-banner-register>b{
+    font-size: 54px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.text-white{
+    color: white;
+}
+.circle-light-register{
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.08);
+    position: absolute;
+    top: -15vw;
+    left: -15vw;
+}
+.header-banner-register{
+    position: absolute;
+    top: 15%;
+    left: calc(50% - 150px);
+    width: 300px
+}
+.circle-yellow{
+    background-color: #f7b500;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -25vw;
+    left: 8%;
+}
+.register-banner{
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    left: 18%;
+}
+
+.form-register-header{
+    font-weight: 700;
+    font-size: 25px;
+}
+.form-container-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+    overflow: hidden;
+}
+.form-register{
+    width: 450px;
+    min-width: 300px;
+    padding: 30px 25px;
+    background-color: white;
+    /* box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border-radius: 5px; */
+
+}
+
+
+.input_icon {
+    background-color: white;
+    border-left: none;
+    border-radius: 0%;
+    border-radius: 0%;
+    height: 40px;
+}
+
+.input-group {
+    width: 500px;
+}
+
+.border-right {
+    border-right: none;
+}
+
+.input-group > .input{
+    width: 85%;
+}
+.container-register{
+    margin-top: 60px;
+}
+
+.container-register-banner{
+    padding: 0 !important;
+}
+.text {
+    color: red;
+}
+.alert-success-register{
+    text-align: center;
+    margin-top: 15px;
+}
+.navigate-update:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width : 1050px){
+    .container-register-banner{
+        display: none;
+    }
+    .form-container-register{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 20px 25px 20px;
+        width: 100%;
+    }
+}

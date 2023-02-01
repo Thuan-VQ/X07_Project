@@ -1,0 +1,248 @@
+.home-page {
+  margin-top: 62px;
+  padding-bottom: 40px;
+}
+.home-banner {
+  height: 400px;
+}
+.home-jobs{
+  max-width: 1200px;
+  margin : 40px auto 0 auto;
+}
+.home-jobs>.row-home-jobs{
+  width: 100%;
+}
+.home-category{
+  width: 65%;
+  margin : 40px auto 0 auto;
+}
+.navigate-header {
+  display: flex;
+  gap: 10px;
+  padding-left: 0 !important;
+}
+.home-banner {
+  position: relative;
+}
+.container-list-jobs{
+  margin-top: 20px !important;
+}
+.home-banner::before {
+  content: "";
+  background-image: url("https://dxwd4tssreb4w.cloudfront.net/images/common/background-cover/sapporo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.content-banner {
+  position: absolute;
+  top: 130px;
+  right: calc(50% + 100px);
+  padding: 0 50px;
+}
+.header-content-banner {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+.search-banner {
+  background-color: white;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: -1px 0px 12px -3px rgba(112, 106, 112, 1);
+  position: relative;
+}
+.search-icon-banner {
+  font-size: 25px;
+  color: rgb(0, 105, 219);
+}
+.input-search-banner {
+  border: none;
+  outline: none;
+  width: 300px;
+  font-size: 15px;
+  width: 80%;
+}
+.result-search {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  top: 70px;
+  left: 0;
+  border-radius: 5px;
+  box-shadow: -1px 4px 12px -3px rgba(112,106,112,1);
+
+}
+.result-search::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 12px solid transparent;
+  border-top: 0;
+  border-bottom: 13px solid white;
+  top: -12px;
+  left: 30px;
+}
+
+.image {
+  height: 350px;
+  width: 100%;
+}
+.homejob-title{
+  width: fit-content;
+  text-align: left !important;
+  padding-left: 0 !important;
+}
+.homejob-title>h1{
+  margin: 0;
+  padding: 0;
+}
+.job-navigate-container{
+  display: flex;
+  align-items: center;
+}
+.homejob-title{
+  padding-left: 0 !important;
+  margin-right: 20px;
+}
+.homejob-title-header{
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+  position: relative;
+}
+.homejob-title-header::after{
+  content: "";
+  position: absolute;
+  background-color: #0087ca;
+  height: 4px;
+  width: 100%;
+  bottom: -12px;
+  left: -2px;
+}
+.homejob-title-link{
+  position: relative;
+  color: black;
+  opacity: 0.8;
+  font-size: 20px;
+}
+.homejob-title-link:hover{
+  position: relative;
+  color: black;
+  opacity: 1;
+  font-weight: 500;
+  font-size: 20px;
+}
+.homejob-title-link::after{
+  content: "" ;
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: -14px;
+  left: -4px;
+  background-color:#0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.homejob-title-link:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.loading-job{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading-animation-home{
+  height: 300px;
+  width: 300px;
+}
+.col-list-job{
+  height: 700px;
+}
+.pagi-homepage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.job-container{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.navigate-content-category{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.all-category{
+  margin-left: 20px !important;
+}
+@media only screen and (max-width : 770px){
+  .home-jobs{
+    padding-right: 0 !important;
+    padding-left: 20px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 20px !important;
+  }
+}
+@media only screen and (max-width : 1000px){
+  .content-banner-inside{
+    display: none;
+  }
+  .container-home-banner{
+    width: 100%;
+    padding: 0 50px;
+  }
+  .content-banner-top{
+    margin-top: 130px;
+    margin-bottom: 50px;
+  }
+  .header-content-banner-top{
+    font-size: 30px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 650;
+  }
+  .search-inside{
+    height: 50px;
+  }
+  .col-list-job{
+    height: fit-content;
+  }
+  .container{
+    width: 800px !important;
+  }
+}
+@media only screen and (min-width : 1001px){
+  .content-banner-inside{
+    display: block;
+  }
+  .content-banner-top{
+    display: none;
+  }
+  .container-home-banner{
+    width: 100%;
+    padding: 0 !important;
+  }
+}
+@media only screen and (max-width : 765px){
+  .content-banner-inside{
+    display: none;
+  }
+  .container-home-banner{
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+

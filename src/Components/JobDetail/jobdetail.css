@@ -1,0 +1,77 @@
+.job-content {
+    width: 100%;
+    position: relative;
+}
+
+.job-button{
+    width: 100%;
+    margin-top: 1rem!important;
+}
+
+.button-save{
+    width: 100px;
+}
+
+.job-tittle {
+    color: red;
+}
+
+.job-tab {
+    color: black;
+    cursor: pointer;
+}
+
+.require-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E40AF;
+    letter-spacing: 0.16px
+}
+
+.require-text {
+    font-weight: bold;
+    font-size: 18.72px;
+}
+
+.container{
+    margin-top: 70px;
+}
+.tab-rows {
+    border-bottom: 1px solid #ccc;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+    padding: 12 0 15;
+}
+.logo{
+    padding: 0 !important;
+}
+.image-logo{
+    width: 100%;
+    height: 100%;
+}
+.salary {
+    color: #0069DB !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .button-save {
+        margin-top: 10px;
+    }
+    .require-table2{
+        margin-top: 10px !important;
+    }
+}
+
+.err {
+    color: red;
+}
+
+.deadline-date {
+    color: red;
+    margin-left: 5px;
+
+}
+.create-date {
+    color: #0069DB;
+    margin-left: 5px;
+}

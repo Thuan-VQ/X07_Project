@@ -1,0 +1,7 @@
+.covenant-pages{
+    padding : 40px 0;
+}
+.container-covenant-pages>h1:first-child{
+    font-size: 35px;
+    font-weight: 600;
+}

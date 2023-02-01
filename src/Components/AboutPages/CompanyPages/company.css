@@ -1,0 +1,26 @@
+.company-pages{
+    padding: 50px 0;
+}
+.container-company>h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.container-company>h1:first-child{
+    font-size: 38px;
+}
+.container-company>ul{
+    list-style: disc;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.company-partner{
+    margin-top: 30px;
+}
+.company-partner>h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.company-map{
+    margin-top: 20px
+}

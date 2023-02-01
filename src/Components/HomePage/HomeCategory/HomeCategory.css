@@ -1,0 +1,44 @@
+.slide-item{
+}
+.content-home-category{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.item{
+  border-bottom-right-radius: 40px;
+  height: 160px;
+  width: 240px;
+  cursor: pointer;
+}
+.item{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.name-category{
+  font-size: 25px;
+  height: 50px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600 !important;
+}
+.amount-jobs{
+  font-size: 15px;
+  margin-top: 40px !important;
+}
+.header-home-category{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 0 !important;
+}
+.header-home-category::after{
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 2px;
+  top: 11px;
+  left: calc(100% + 10px );
+  background-color: #ccc;
+}

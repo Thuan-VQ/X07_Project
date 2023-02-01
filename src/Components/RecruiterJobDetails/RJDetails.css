@@ -1,0 +1,44 @@
+.job-content {
+    width: 100%;
+    position: relative;
+}
+
+.job-button{
+    width: 100%;
+}
+
+.job-tittle {
+    color: red;
+}
+
+.job-tab {
+    color: black;
+}
+
+.require-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E40AF;
+    letter-spacing: 0.16px
+}
+
+.require-text {
+    font-weight: bold;
+    font-size: 18.72px;
+}
+
+.container{
+    margin-top: 70px;
+}
+.tab-rows {
+    border-bottom: 1px solid grey;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+}
+.logo{
+    padding: 0 !important;
+}
+.image-logo{
+    width: 100%;
+    height: 100%;
+}

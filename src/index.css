@@ -1,0 +1,42 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+/* ol,
+ul {
+  list-style: none;
+} */
+.basic-multi-select .select__control {
+  border-radius: 0;
+}
+
+/* @tailwind base;
+
+@tailwind components;
+@tailwind utilities;   */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");

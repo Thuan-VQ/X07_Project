@@ -1,0 +1,31 @@
+.job-notification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-job-notification{
+}
+.container-job-notification>h1{
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 25px;
+    color: rgb(0,19,63);
+    text-align: center;
+}
+.container-job-notification>p{
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+}
+.form-send-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.form-email{
+    width: 70%;
+    display: flex;
+}
+.input-email{
+    width: 75%;
+}
