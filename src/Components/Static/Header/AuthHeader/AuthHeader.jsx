@@ -23,6 +23,7 @@ const AuthHeader = ({ mode }) => {
   const [showUserBox, setShowUserBox] = useState(false);
   const [showSideBar, setShowSideBar] = useState(false);
   const current = JSON.parse(localStorage.getItem("currentUser"));
+
   useEffect(() => {
     const closeUserBox = (e) => {
       const valueTarget = e.srcElement
@@ -69,7 +70,7 @@ const AuthHeader = ({ mode }) => {
           className="navbar-content account-user"
           onClick={() => toggleUserBox()}
         >
-          <MdAccountCircle className="icon-navbar"></MdAccountCircle>
+          <MdAccountCircle className="icon-navbar" onClick={() => toggleUserBox()} ></MdAccountCircle>
           {!current ? <p className="content content-login">Đăng ký</p> : <></>}
           {(currentUser?.role === "recruiter" ||
             user?.role === "recruiter") && (
@@ -79,7 +80,7 @@ const AuthHeader = ({ mode }) => {
             user?.role === "candidate") && (
             <p className="content">Người tìm việc</p>
           )}
-          <RiArrowDropDownLine className="icon-dropdown-user"></RiArrowDropDownLine>
+          <RiArrowDropDownLine className="icon-dropdown-user" onClick={() => toggleUserBox()}></RiArrowDropDownLine>
           {showUserBox && (
             <div
               className={

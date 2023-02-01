@@ -72,7 +72,6 @@ const JobProvider = ({ children }) => {
       .then((data) => {
         setJobHomePage(data.recruiment);
         const pageTotal = Math.ceil(data.countDoc/10)
-        console.log(pageTotal);
         setPageHomeJob (pageTotal)
         localStorage.setItem("jobHomePage", JSON.stringify(data.recruiment));
       });

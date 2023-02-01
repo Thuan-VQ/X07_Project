@@ -2,7 +2,7 @@
   "name": "final-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Thuan-VQ.github.io/X07_Project",
+  "homepage": "https://thuan-vq.github.io/X07_Project",
   "dependencies": {
     "@ant-design/icons": "^4.8.0",
     "@ckeditor/ckeditor5-build-classic": "^35.3.2",

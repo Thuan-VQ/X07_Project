@@ -31,7 +31,6 @@ export const CompanyPage = () => {
             page,
             operationSector
           );
-          console.log(ListCompany.rcts)
           setCompany(ListCompany.rcts);
           return  ListCompany;
         };
