@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/X07_Project/static/css/main.8072e844.css",
-    "main.js": "/X07_Project/static/js/main.a7826ccf.js",
+    "main.js": "/X07_Project/static/js/main.8e5bd8fc.js",
     "static/js/483.ee25d421.chunk.js": "/X07_Project/static/js/483.ee25d421.chunk.js",
     "static/media/banner-page.jpg": "/X07_Project/static/media/banner-page.b91f93638b8a8b1dfe96.jpg",
     "static/media/banner_login.jpg": "/X07_Project/static/media/banner_login.0b1de1064823d4033c66.jpg",
@@ -11,11 +11,11 @@
     "static/media/xcareerlogo.png": "/X07_Project/static/media/xcareerlogo.14a9fb3fb84f0b64097d.png",
     "index.html": "/X07_Project/index.html",
     "main.8072e844.css.map": "/X07_Project/static/css/main.8072e844.css.map",
-    "main.a7826ccf.js.map": "/X07_Project/static/js/main.a7826ccf.js.map",
+    "main.8e5bd8fc.js.map": "/X07_Project/static/js/main.8e5bd8fc.js.map",
     "483.ee25d421.chunk.js.map": "/X07_Project/static/js/483.ee25d421.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8072e844.css",
-    "static/js/main.a7826ccf.js"
+    "static/js/main.8e5bd8fc.js"
   ]
 }
