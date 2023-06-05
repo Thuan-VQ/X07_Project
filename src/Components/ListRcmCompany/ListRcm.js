@@ -3,7 +3,6 @@ import { List } from "antd";
 import RcmItem from "./RcmItem";
 
 export default function ListRcm({myJobRecruitment}){
-  console.log(myJobRecruitment);
   let locale = {
     emptyText: 'Đang tải dữ liệu...',
   };

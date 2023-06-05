@@ -41,7 +41,6 @@ export default function CandidateList() {
     const getFilterCv = async()=>{
       const getlocalToken = JSON.parse(localStorage.getItem("token"));
       const status = params.get("status");
-      console.log('status',status);
       const filter = await getCV(id, status, getlocalToken);
     }
     getFilterCv()
